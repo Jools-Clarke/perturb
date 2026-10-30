@@ -11,6 +11,9 @@ license = "BSD-3-Clause"
 requires-python = ">=3.9"
 dependencies = ["numpy", "scipy", "matplotlib", "h5py"]
 
+[project.urls]
+Repository = "https://github.com/Jools-Clarke/perturb"
+
 [project.optional-dependencies]
 # the example network and notebooks
 examples = ["torch", "jupyter", "tqdm", "ipywidgets"]
