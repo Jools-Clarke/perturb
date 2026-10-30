@@ -1,5 +1,7 @@
 ![perturb](https://joolsclarke.co.uk/perturb/perturb-full-light.svg)
 
+[![PyPI](https://img.shields.io/pypi/v/perturb-interp)](https://pypi.org/project/perturb-interp/)
+
 [Visit the Perturb webpage](https://joolsclarke.co.uk/perturb) 
 
 Perturb is an interpretability framework for understanding the predictions made by black-box regression models, such
