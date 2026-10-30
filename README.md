@@ -8,12 +8,11 @@ Perturb is an interpretability framework for understanding the predictions made 
 as machine learning retrievals. For a single sample, it tells you which input features the black-box's answer depends
 on, how strongly, and in which direction. This repo packages the Gaussian perturbation method of Clarke, Yip &
 Nikolaou, *Gaussian perturbation interpretability for regression techniques to understand retrieval black-boxes*
-(RASTI 2026), so that it can be used on its own, along with a few additions of our own: a way of choosing how far to
-perturb (step 2 below), and the non-linearity and threshold crossings of each response. The paper's own code,
-including the TauREx-III experiments, is in `gaussian-perturbation-interpretability`.
+(RASTI 2026), so that it can be used on its own, along with a few quality of life additions for utilising the methods.
+The paper's own code, including the TauREx-III experiments, is available in a seperate repo ([gaussian-perturbation-interpretability](https://github.com/Jools-Clarke/gaussian-perturbation-interpretability)).
 
-Perturb is completely black-box agnostic. The black-box can be any function `f` that maps inputs `(N, M)` to outputs
-`(N, P)`, whether that is a neural network, a Bayesian retrieval or a wrapper around some external code.
+Perturb is completely black-box agnostic. The black-box can be any function `f` that maps inputs to outputs, whether that 
+is a neural network, a Bayesian retrieval or a wrapper around some external code.
 
 ## What can Perturb tell me?
 
