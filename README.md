@@ -36,6 +36,16 @@ Perturb does need to be able to sort the input features in order along an axis (
 very different widths but similar centres, Perturb can still be used, but it won't be able to distinguish between
 these bins well, and bins with exactly the same centre can't be told apart at all.
 
+## About this package
+
+I am a researcher, and not a software developer. I did not have the time to develop this library from scratch. This library was refactored
+from the code used in the original implementation and documented with the help of a large language model (LLM). The LLM was used to assist
+in code refactoring and documentation generation. However, the final implementation, testing, and validation were performed by myself (a 
+human, last time I checked) to ensure that the implimentation is faithful to the paper. If you wish to use the code in your research, please
+cite the original paper.
+
+If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
 ## Install
 
 ```
